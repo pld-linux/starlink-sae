@@ -5,7 +5,8 @@ Version:	1.0_4.218
 Release:	1
 License:	GPL
 Group:		Development
-Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/sae/sae.tar.Z
+#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/sae/sae.tar.Z
+Source0:	sae.tar.Z
 # Source0-md5:	d76376d6dc79076e7e0ec7d0960842dd
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_SAE.html
 BuildRequires:	starlink-htx
