@@ -2,7 +2,7 @@ Summary:	SAE - Starlink Applications Environment special files
 Summary(pl):	SAE - pliki specjalne dla ¶rodowiska aplikacji Starlink
 Name:		starlink-sae
 Version:	1.0_4.218
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development
 Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/sae/sae.tar.Z
@@ -30,7 +30,7 @@ b³êdów oraz skrypt pow³oki potrzebny do tworzenia oprogramowania w
 Summary:	Development files for SAE environment
 Summary(pl):	Pliki programistyczne ¶rodowiska SAE
 Group:		Development
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Development files for SAE environment.
@@ -66,5 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %{stardir}/help/fac*
 
 %files devel
+%defattr(644,root,root,755)
 %attr(755,root,root) %{stardir}/bin/star_dev
 %{stardir}/include/*
