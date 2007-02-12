@@ -1,5 +1,5 @@
 Summary:	SAE - Starlink Applications Environment special files
-Summary(pl.UTF-8):   SAE - pliki specjalne dla środowiska aplikacji Starlink
+Summary(pl.UTF-8):	SAE - pliki specjalne dla środowiska aplikacji Starlink
 Name:		starlink-sae
 Version:	1.0_4.218
 Release:	2
@@ -28,7 +28,7 @@ błędów oraz skrypt powłoki potrzebny do tworzenia oprogramowania w
 
 %package devel
 Summary:	Development files for SAE environment
-Summary(pl.UTF-8):   Pliki programistyczne środowiska SAE
+Summary(pl.UTF-8):	Pliki programistyczne środowiska SAE
 Group:		Development
 Requires:	%{name} = %{version}-%{release}
 
