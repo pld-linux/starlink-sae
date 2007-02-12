@@ -1,5 +1,5 @@
 Summary:	SAE - Starlink Applications Environment special files
-Summary(pl):	SAE - pliki specjalne dla ¶rodowiska aplikacji Starlink
+Summary(pl.UTF-8):   SAE - pliki specjalne dla Å›rodowiska aplikacji Starlink
 Name:		starlink-sae
 Version:	1.0_4.218
 Release:	2
@@ -20,23 +20,23 @@ The SAE package brings together some include files, a facility error
 file and a shell script needed for development of software in the
 Starlink environment, and for building the USSC.
 
-%description -l pl
-Pakiet SAE (Starlink Applications Environment - ¶rodowisko aplikacji
-Starlink) dostarcza kilka plików nag³ówkowych, plik definiuj±cy kody
-b³êdów oraz skrypt pow³oki potrzebny do tworzenia oprogramowania w
-¶rodowisku Startlink oraz do budowania USSC.
+%description -l pl.UTF-8
+Pakiet SAE (Starlink Applications Environment - Å›rodowisko aplikacji
+Starlink) dostarcza kilka plikÃ³w nagÅ‚Ã³wkowych, plik definiujÄ…cy kody
+bÅ‚Ä™dÃ³w oraz skrypt powÅ‚oki potrzebny do tworzenia oprogramowania w
+Å›rodowisku Startlink oraz do budowania USSC.
 
 %package devel
 Summary:	Development files for SAE environment
-Summary(pl):	Pliki programistyczne ¶rodowiska SAE
+Summary(pl.UTF-8):   Pliki programistyczne Å›rodowiska SAE
 Group:		Development
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Development files for SAE environment.
 
-%description devel -l pl
-Pliki programistyczne ¶rodowiska SAE.
+%description devel -l pl.UTF-8
+Pliki programistyczne Å›rodowiska SAE.
 
 %prep
 %setup -q -c
